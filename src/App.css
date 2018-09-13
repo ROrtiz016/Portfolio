@@ -1,0 +1,398 @@
+*{
+ box-sizing: border-box 
+}
+
+.App{
+  background: rgb(51, 59, 80)
+}
+
+.navBar{
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  align-items: center;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  right: 5px;
+  background: transparent;
+  box-shadow: 0px 0px 20px rgb(53, 52, 52);
+  z-index: 3000;
+}
+
+.box-nav{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  text-align: center;
+  color: whitesmoke;
+  font-family:Arial, Helvetica, sans-serif sans
+}
+
+.navObj{
+  color: white;
+  text-decoration: none;
+}
+
+.navObj:hover{
+  color: lightgray;
+  transition: .2s;
+  cursor: pointer;
+}
+
+.navObj2{
+  color: #00D646;
+  text-decoration: none;
+ }
+
+ .navObj2:hover{
+  color: rgb(6, 250, 87);
+  cursor: pointer;
+ }
+
+.laptop{
+  height: 132vh;
+  width: 100%;
+}
+
+.Name{
+  position: absolute;
+  color: white;
+  height: 250px;
+  width: 400px;
+  left: 36%;
+  top: 22%;
+}
+
+.FrstName{
+font-size: 80px;
+font-family:'Saira', sans-serif;
+
+}
+
+.Dev{
+  font-weight: 200;
+  font-size: 24px;
+}
+
+.sim{
+  color: #00D646
+}
+
+.Summary{
+  height: 700px;
+  width: 900px;
+  color:whitesmoke;
+  background: rgb(51, 59, 80);
+  position: absolute;
+  left: 27%;
+  top: 100%;
+  padding: 150px;
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 8px;
+  padding: 150px 200px 100px 230px;
+}
+
+.download{
+  border: 1px solid #00D646;
+  height: 60px;
+  width: 250px;
+  font-size: 16px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 18%;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: .4s ease-in-out;
+}
+
+.coffee{
+  height: 190vh;
+  width: 100%;
+}
+
+.Skills{
+  height: 600px;
+  width: 1000px;
+  position: absolute;
+  text-align: center;
+  left: 24%;
+  top: 200vh;
+  color: whitesmoke;
+  background: rgba(63, 62, 62, 0.479);
+  border-radius: 10px;
+  border: 1px solid rgba(0, 214, 71, 0.603);
+}
+
+.Prof{
+  font-size: 56px;
+  font-family: 'Pontano Sans', sans-serif;
+}
+
+.skills{
+  font-size: 24px;
+  text-align: center;
+}
+
+.icon{
+  height: 90px;
+  margin: 28px;
+  transition: .2s ease-in;
+}
+
+.icon:hover{
+  transition: .2s ease-in;
+  transform: scale(1.4)
+}
+
+.Techs{
+  height: 300px;
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  margin-left: 70px;
+}
+
+.snow{
+  width: 100%;
+}
+
+.Portfolio{
+  height:400px;
+  width: 100%;
+  text-align: center; 
+  position: absolute;
+  top: 300vh;
+  color: whitesmoke;
+  font-size: 56px;
+  font-family: 'Pontano Sans', sans-serif;
+}
+
+.work{
+  font-size: 24px;
+
+}
+
+.Projects{
+  width: 100%;
+  height: 800px;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.Project-Container{
+  display: flex;
+  width: 50
+}
+
+
+.Project1{
+  height: 250px;
+  border-radius: 8px;
+  background-image:url('./components/img/BBT.png');
+  width: 600px;
+  background-position: center;
+  background-size: cover;
+  margin-right: 25px;
+  transition: .5s ease-in;
+}
+
+.Project2{
+  height: 250px;
+  border-radius: 8px;
+  background-image:url('./components/img/ClonePen.PNG');
+  width: 600px;
+  background-position: center;
+  background-size: cover;
+  transition: .5s ease-in;
+  margin-left: 25px;
+}
+
+.Project1:hover{
+  transform: scale(1.1);
+  transition: .5s ease-out;
+}
+
+.Project2:hover{
+  transition: .5s ease-out;
+  transform: scale(1.1)
+}
+
+.projtImg{
+  height: 200px;
+  border-radius: 8px;
+  margin: 5px;
+  cursor: pointer;
+  transition: .3s ease-in;
+}
+
+.projtImg:hover{
+  height: 300px;
+  transition: .4s ease-out;
+  z-index: 1000;
+
+}
+
+.Contact{
+  position: relative;
+  top: -95vh;
+  width: 50%;
+  height: 620px;
+  background: rgb(51, 59, 80);
+  left: 25%;
+  color: whitesmoke;
+  border-radius: 8px;
+  padding: 125px;
+  display: flex;
+  font-family: 'Pontano Sans', sans-serif;
+}
+
+.contct{
+  font-size: 30px;
+}
+
+.text1{
+  height: 50px;
+  width: 200px;
+}
+
+.Input{
+  height: 80%;
+  position: relative;
+  left: 13%;
+  top: 8%;
+}
+
+.name1{
+  height: 35px;
+  font-size: 18px;
+  width: 200px;
+  margin: 0px 20px 16px 0px;
+}
+
+.Email{
+  height: 35px;
+  font-size: 18px;
+  width: 200px;
+  margin: 0px 20px 16px 0px;
+}
+
+.subject{
+  height: 35px;
+  font-size: 18px;
+  width: 420px;
+  margin-bottom: 16px;
+}
+
+.message{
+  width: 420px;
+  height: 200px;
+  text-align: start;
+  overflow-y: auto;
+  overflow: hidden;
+  font-size: 18px;
+  resize: none;
+  white-space: pre-wrap;
+  cursor: text;
+  -webkit-rtl-ordering: logical;
+  word-wrap: break-word;
+  display: inline-block;
+  font-family: 'Pontano Sans', sans-serif;
+}
+
+.send{
+  width: 420px;
+  height: 45px;
+  color: black;
+  background: #00D646;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
+  transition: .2s ease-in
+}
+
+.send:hover{
+  background: rgb(6, 250, 87);
+  transition: .2s ease-in
+}
+
+.Footer{
+  height: 200px;
+  width: 100%;
+  background: rgb(51, 59, 80);
+  position: absolute;
+  top: 515vh;
+  text-align: right;
+  padding: 50px;
+  color: whitesmoke;
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 18px;
+}
+
+.icon1{
+  margin-left: 38%;
+  margin-bottom: 20px;
+}
+
+.icon2{
+  height: 50px;
+}
+
+.icon3{
+  height: 50px;
+  margin: 2px;
+}
+
+.icon4{
+  height: 58px;
+  position: relative;
+  top: 2px;
+}
+
+.textBox{
+  width: 100%;
+  transition: .5s ease-out;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+
+.Prjct-descrptn{
+  overflow: hidden;
+  font-size: 20px;
+}
+
+.Prjct-descrptn1{
+  font-size: 16px;
+  overflow: hidden;
+}
+
+.textBox1{
+  width: 500px;
+  height: 200px;
+}
+
+.div1{
+ height: 0vh;
+}
