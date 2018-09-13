@@ -10,7 +10,7 @@ app.get('*', (req, res)=>{
     res.sendFile(path.join(__dirname, '../build/index.html'));
 });
 
-app.use(express.static(`${__dirname}/..build`))
+app.use(express.static(`${__dirname}/../build`))
 
 // Generate test SMTP service account from ethereal.email
 // Only needed if you don't have a real mail account for testing
