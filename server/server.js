@@ -1,9 +1,14 @@
+const path = require('path'); // Usually moved to the start of file
 var nodemailer = require('nodemailer')
 require('dotenv').config()
 // const xoauth2 = require('xoauth2')
 const express = require('express')
 const app = express()
 const port = 3005
+
+app.get('*', (req, res)=>{
+    res.sendFile(path.join(__dirname, '../build/index.html'));
+});
 
 // Generate test SMTP service account from ethereal.email
 // Only needed if you don't have a real mail account for testing
