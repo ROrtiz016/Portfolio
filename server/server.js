@@ -4,7 +4,7 @@ require('dotenv').config()
 // const xoauth2 = require('xoauth2')
 const express = require('express')
 const app = express()
-const port = 3005
+const port = 3006
 
 app.get('*', (req, res)=>{
     res.sendFile(path.join(__dirname, '../build/index.html'));
