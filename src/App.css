@@ -406,3 +406,8 @@ font-family:'Saira', sans-serif;
 .div1{
  height: 0vh;
 }
+
+.label{
+  position: relative;
+  bottom: 25px;
+}

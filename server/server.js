@@ -8,6 +8,41 @@ const port = 3006
 
 app.use(express.static(`${__dirname}/../build`))
 
+let transporter = nodemailer.createTransport({
+  service: 'gmail',
+  secure: false,
+  port: 25,
+  auth: {
+    user: 'rortiz.max@gmail.com',
+    pass: process.env.PASS
+  } ,
+  tls:{
+    rejectUnauthorized: false
+  }
+});
+
+let HelperOptions = {
+  from: '"Ruben Ortiz" <rortiz.max@gmail.com',
+  to: 'rortiz.max@gmail.com',
+  subject: 'Hello World',
+  text: 'Awesome Work'
+}
+
+transporter.sendMail(HelperOptions, (error, info) => {
+  if(error){
+    return console.log(error)
+  }
+    console.log('Message sent')
+    console.log(info)
+  
+})
+
+
+app.listen( port,() => {
+  console.log('Server online at ' + port)
+})
+
+
 // Generate test SMTP service account from ethereal.email
 // Only needed if you don't have a real mail account for testing
 // nodemailer.createTestAccount((err, account) => {
@@ -44,7 +79,3 @@ app.use(express.static(`${__dirname}/../build`))
 //       // Preview URL: https://ethereal.email/message/WaQKMgKddxQDoou...
 //   });
 // });
-
-app.listen( port,() => {
-  console.log('Server online at ' + port)
-})

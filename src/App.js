@@ -27,7 +27,7 @@ class App extends Component {
         <img className='laptop' src={laptop} alt="" />
         <div>
           <ParallaxImage reduceHeight={1 / 9} className='coffee' src={city} alt="" />
-            <img className='snow' src={snow} alt="" />
+          <img className='snow' src={snow} alt="" />
           <div className='div1'>
 
             <link href="https://fonts.googleapis.com/css?family=Saira:700" rel="stylesheet"></link>
@@ -36,14 +36,14 @@ class App extends Component {
 
             {/* <ScrollspyNav
              scrollTargetIds={["professional","portfolio","contact"]} activeNavClass="is-active"> */}
-              <div className='navBar'>
-                <div className='box-nav'>
-                  <p><a href='/' className='navObj2'><span>HOME</span></a></p>
-                  <p><a href='#professional' className='navObj'><span>PROFESSIONAL</span> </a></p>
-                  <p><a href='#portfolio' className='navObj'><span>PROJECTS</span> </a></p>
-                  <p><a href='#contact' className='navObj'><span>CONTACT</span></a></p>
-                </div>
+            <div className='navBar'>
+              <div className='box-nav'>
+                <p><a href='/' className='navObj2'><span>HOME</span></a></p>
+                <p><a href='#professional' className='navObj'><span>PROFESSIONAL</span> </a></p>
+                <p><a href='#portfolio' className='navObj'><span>PROJECTS</span> </a></p>
+                <p><a href='#contact' className='navObj'><span>CONTACT</span></a></p>
               </div>
+            </div>
             {/* </ScrollspyNav> */}
 
             <div>
@@ -64,17 +64,50 @@ class App extends Component {
               <p className='Prof'> P R O F E S S I O N A L </p>
               <p className='skills'> S K I L L S </p>
               <div className='Techs'>
-                <img className='icon' src={javascript} alt="" />
-                <img className='icon' src={html} alt="" />
-                <img className='icon' src={css} alt="" />
-                <img className='icon' src={gBash} alt="" />
-                <img className='icon' src={react} alt="" />
-                <img className='icon' src={node} alt="" />
-                <img className='icon' src={express} alt="" />
-                <img className='icon' src={postman} alt="" />
-                <img className='icon' src={electron} alt="" />
-                <img className='icon' src={redux} alt="" />
-                <img className='icon' src={postgresql} alt="" />
+                <div>
+                  <img className='icon' src={javascript} alt="" /><p className='label'>
+                    JavaScript</p>
+                </div>
+
+                <div>
+                  <img className='icon' src={html} alt="" /><p className='label'>HTML</p>
+                </div>
+
+                <div>
+                  <img className='icon' src={css} alt="" /><p className='label'>CSS</p>
+                </div>
+
+                <div>
+                  <img className='icon' src={gBash} alt="" /><p className='label'> gitBash</p>
+                </div>
+
+                <div>
+                  <img className='icon' src={react} alt="" /> <p className='label'>React</p>
+                </div>
+
+                <div>
+                  <img className='icon' src={node} alt="" /><p className='label'>Node</p>
+                </div>
+
+                <div>
+                  <img className='icon' src={express} alt="" /><p className='label'>Express</p>
+                </div>
+
+                <div>
+                  <img className='icon' src={postman} alt="" /><p className='label'>Postman</p>
+                </div>
+
+                <div>
+                  <img className='icon' src={electron} alt="" /><p className='label'>Electron</p>
+                </div>
+
+                <div>
+                  <img className='icon' src={redux} alt="" /><p className='label'>Redux</p>
+                </div>
+
+                <div>
+                  <img className='icon' src={postgresql} alt="" /><p className='label'>PostgreSQl</p>
+                </div>
               </div>
             </div>
 
@@ -107,9 +140,9 @@ class App extends Component {
                     <p className='Prjct-descrptn'>ClonePen</p>
                     <p className='Prjct-descrptn1'>A useful and liberating tool for developers of any skill, and particularly empowering for people learning to code. With a focus primarily on front-end languages like HTML, CSS, JavaScript, and preprocessing syntaxes that turn into those things. This page was built with a group of 4 Developers. </p>
                     <p className='Prjct-descrptn1'>
-                      Built with: React | HTML | CSS | JavaScript | Node | Express | PostgreSQl | Massive 
+                      Built with: React | HTML | CSS | JavaScript | Node | Express | PostgreSQl | Massive
                       </p>
-                      <a href="https://github.com/ROrtiz016/codepen-clone" className='Prjct-descrptn1'><p>github.com/ROrtiz016/codepen-clone</p></a>
+                    <a href="https://github.com/ROrtiz016/codepen-clone" className='Prjct-descrptn1'><p>github.com/ROrtiz016/codepen-clone</p></a>
                   </div>
                   <a href="https://www.clonepen.com/#/pens">
                     <div className='Project2'>
@@ -126,7 +159,7 @@ class App extends Component {
                 <p>rortiz.max@gmail.com <br /> github.com/ROrtiz016 <br />
                   linkedin.com/in/rortiz-016/</p>
                 <p>Tel: 1-787-538-5781</p>
-                <img className='icon3'  src="https://png.icons8.com/color/260/google-plus.png" alt="" />
+                <img className='icon3' src="https://png.icons8.com/color/260/google-plus.png" alt="" />
                 <img className='icon3' src="https://cdn3.iconfinder.com/data/icons/sociocons/256/github-sociocon.png" alt="" />
                 <img className='icon4' src="https://png.pngtree.com/element_our/md/20180301/md_5a9797d083160.png" alt="" />
               </div>
