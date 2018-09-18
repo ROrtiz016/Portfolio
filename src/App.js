@@ -16,7 +16,7 @@ import react from './components/img/react.png'
 import snow from './components/img/snowy-mountains-a.jpg'
 import Icon from './components/img/RubnIcon.PNG'
 import ParallaxImage from 'react-image-parallax2'
-import ScrollspyNav from "react-scrollspy-nav";
+// import ScrollspyNav from "react-scrollspy-nav";
 
 
 class App extends Component {
@@ -26,7 +26,7 @@ class App extends Component {
       <div className="App">
         <img className='laptop' src={laptop} alt="" />
         <div>
-          <ParallaxImage reduceHeight={1 / 4} className='coffee' src={city} alt="" />
+          <ParallaxImage reduceHeight={1 / 9} className='coffee' src={city} alt="" />
             <img className='snow' src={snow} alt="" />
           <div className='div1'>
 
@@ -34,8 +34,8 @@ class App extends Component {
 
             <link href="https://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet"></link>
 
-            <ScrollspyNav
-             scrollTargetIds={["professional","portfolio","contact"]} activeNavClass="is-active">
+            {/* <ScrollspyNav
+             scrollTargetIds={["professional","portfolio","contact"]} activeNavClass="is-active"> */}
               <div className='navBar'>
                 <div className='box-nav'>
                   <p><a href='/' className='navObj2'><span>HOME</span></a></p>
@@ -44,7 +44,7 @@ class App extends Component {
                   <p><a href='#contact' className='navObj'><span>CONTACT</span></a></p>
                 </div>
               </div>
-            </ScrollspyNav>
+            {/* </ScrollspyNav> */}
 
             <div>
               <div className='Name'>
@@ -61,7 +61,6 @@ class App extends Component {
             </div>
 
             <div className='Skills' id='professional'>
-              <img className='profBackgrnd' src="" alt="" />
               <p className='Prof'> P R O F E S S I O N A L </p>
               <p className='skills'> S K I L L S </p>
               <div className='Techs'>
@@ -98,6 +97,7 @@ class App extends Component {
                       <p className='Prjct-descrptn1'>
                         Built with: React | HTML | CSS | Redux | JavaScript | Node | Express | PostgreSQl | Massive | Auth0
                       </p>
+                      <a href="https://github.com/ROrtiz016/Personal-Project" className='Prjct-descrptn1'><p>github.com/ROrtiz016/Personal-Project</p></a>
                     </div>
                   </div>
                 </div>
@@ -105,10 +105,11 @@ class App extends Component {
                 <div className='Project-Container'>
                   <div className='textBox1'>
                     <p className='Prjct-descrptn'>ClonePen</p>
-                    <p className='Prjct-descrptn1'>A useful and liberating tool for developers of any skill, and particularly empowering for people learning to code. We focus primarily on front-end languages like HTML, CSS, JavaScript, and preprocessing syntaxes that turn into those things. This page was built with a group of 4 Developers. </p>
+                    <p className='Prjct-descrptn1'>A useful and liberating tool for developers of any skill, and particularly empowering for people learning to code. With a focus primarily on front-end languages like HTML, CSS, JavaScript, and preprocessing syntaxes that turn into those things. This page was built with a group of 4 Developers. </p>
                     <p className='Prjct-descrptn1'>
-                      Built with: React | HTML | CSS | Redux | JavaScript | Node | Express | PostgreSQl | Massive | Auth0
+                      Built with: React | HTML | CSS | JavaScript | Node | Express | PostgreSQl | Massive 
                       </p>
+                      <a href="https://github.com/ROrtiz016/codepen-clone" className='Prjct-descrptn1'><p>github.com/ROrtiz016/codepen-clone</p></a>
                   </div>
                   <a href="https://www.clonepen.com/#/pens">
                     <div className='Project2'>
