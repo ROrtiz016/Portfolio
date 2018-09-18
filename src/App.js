@@ -15,7 +15,7 @@ import redux from './components/img/Redux.png'
 import react from './components/img/react.png'
 import snow from './components/img/snowy-mountains-a.jpg'
 import Icon from './components/img/RubnIcon.PNG'
-import ParallaxImage from 'react-image-parallax2'
+import ImageParallax from 'react-image-parallax2'
 // import ScrollspyNav from "react-scrollspy-nav";
 
 
@@ -25,8 +25,8 @@ class App extends Component {
     return (
       <div className="App">
         <img className='laptop' src={laptop} alt="" />
-        <div>
-          <ParallaxImage reduceHeight={1 / 9} className='coffee' src={city} alt="" />
+        <div className='divImg'>
+          <ImageParallax reduceHeight={1 / 8.5} className='coffee' src={city} alt="" />
           <img className='snow' src={snow} alt="" />
           <div className='div1'>
 
@@ -112,7 +112,6 @@ class App extends Component {
             </div>
 
             <div className='Portfolio' id='portfolio'>
-              <img src="mountainsBckgrnd" alt="" />
               <p className='portfolio'>P R O J E C T S </p>
               <p className='work'> SOME OF MY WORK >></p>
 
@@ -136,7 +135,7 @@ class App extends Component {
                 </div>
 
                 <div className='Project-Container'>
-                  <div className='textBox1'>
+                  <div className='textBox2'>
                     <p className='Prjct-descrptn'>ClonePen</p>
                     <p className='Prjct-descrptn1'>A useful and liberating tool for developers of any skill, and particularly empowering for people learning to code. With a focus primarily on front-end languages like HTML, CSS, JavaScript, and preprocessing syntaxes that turn into those things. This page was built with a group of 4 Developers. </p>
                     <p className='Prjct-descrptn1'>
