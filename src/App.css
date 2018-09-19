@@ -419,13 +419,13 @@ font-family:'Saira', sans-serif;
 
 
 
-@media (max-width: 430px){
+@media (max-width: 360px){
   .navBar{
     display: none;
   }
   
   .laptop{
-    height: 290vh;
+    height: 314vh;
     width: 100%;
     min-width: 1000px;
     background-position: center;
@@ -500,7 +500,7 @@ font-family:'Saira', sans-serif;
     position: absolute;
     text-align: center;
     left: 10%;
-    top: 2400px;
+    top: 2300px;
     color: whitesmoke;
     background: rgba(43, 42, 42, 0.479);
     border-radius: 10px;
@@ -542,11 +542,12 @@ font-family:'Saira', sans-serif;
   }
 
   .Portfolio{
-    top: 490vh;
+    top: 530vh;
     color: whitesmoke;
     font-size: 64px;
     font-family: 'Pontano Sans', sans-serif;
     margin-left: 400px;
+    width: 450px
   }
 
   .Projects{
