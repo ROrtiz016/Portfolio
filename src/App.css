@@ -419,7 +419,7 @@ font-family:'Saira', sans-serif;
 
 
 
-@media (max-width: 360px){
+@media (max-width: 500px){
   .navBar{
     display: none;
   }
@@ -500,7 +500,7 @@ font-family:'Saira', sans-serif;
     position: absolute;
     text-align: center;
     left: 10%;
-    top: 2300px;
+    top: 2500px;
     color: whitesmoke;
     background: rgba(43, 42, 42, 0.479);
     border-radius: 10px;
