@@ -51,9 +51,8 @@ class Contact extends Component{
      subject,
      message
    }
-    console.log(info)
     axios.post(`/api/message/`, info).then(res => {
-      res.data
+       res.data
     }
       )
       alert('Message sent')

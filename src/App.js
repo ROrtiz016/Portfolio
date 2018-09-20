@@ -17,7 +17,6 @@ import snow from './components/img/snowy-mountains-a.jpg'
 import Icon from './components/img/RubnIcon.PNG'
 import ImageParallax from 'react-image-parallax2'
 import Contact from './Contact'
-// import ScrollspyNav from "react-scrollspy-nav";
 
 
 class App extends Component {

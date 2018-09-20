@@ -1,4 +1,3 @@
-const path = require('path'); // Usually moved to the start of file
 var nodemailer = require('nodemailer')
 require('dotenv').config()
 const bodyParser = require('body-parser')
