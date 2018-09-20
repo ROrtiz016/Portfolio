@@ -10,8 +10,8 @@ app.use(bodyParser.json())
 
 app.use(express.static(`${__dirname}/../build`))
 
-app.post('/api/message/:name', (res, req) => {
-  const { name } = req.params;
+app.post('/api/message/', (req) => {
+  const { name, email, subject, message } = req.body;
   let transporter = nodemailer.createTransport({
     service: 'gmail',
     secure: false,

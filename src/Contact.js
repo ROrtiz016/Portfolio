@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-// import axios from 'axios'
+import axios from 'axios'
 import './App.css'
 
 class Contact extends Component{
@@ -43,13 +43,19 @@ class Contact extends Component{
     })
   }
 
-  sendEmail(){
-  //  const {name:name, email, subject, message} = this.state
-  //   console.log(name)
-  //   axios.post(`/api/message/${name}/`).then(res => {
-  //     this.props
-  //   }
-  //     )
+  sendEmail = () => {
+   let {name, email, subject, message} = this.state
+   let info = {
+     name,
+     email, 
+     subject,
+     message
+   }
+    console.log(info)
+    axios.post(`/api/message/`, info).then(res => {
+      this.props
+    }
+      )
       alert('Message sent')
   }
 
