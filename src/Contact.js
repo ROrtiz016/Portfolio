@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-// import axios from 'axios'
+import axios from 'axios'
 import './App.css'
 
 class Contact extends Component{
@@ -44,15 +44,13 @@ class Contact extends Component{
   }
 
   sendEmail(){
-    this.setState({
-      name: '',
-      email: '',
-      subject: '',
-      message: ''
-    })
-    const{name, email, subject, message} = this.state;
-    // axios.post(`/api/message/${name}/${email}/${subject}/${message}/`)
-    alert('Message sent')
+   const {name:name, email, subject, message} = this.state
+    console.log(name)
+    axios.post(`/api/message/${name}/`).then(res => {
+      this.props
+    }
+      )
+      // alert('Message sent')
   }
 
   
@@ -67,9 +65,8 @@ class Contact extends Component{
                 <p>rortiz.max@gmail.com <br /> github.com/ROrtiz016 <br />
                   linkedin.com/in/rortiz-016/</p>
                 <p>Tel: 1-787-538-5781</p>
-                <img className='icon3' src="https://png.icons8.com/color/260/google-plus.png" alt="" />
-                <img className='icon3' src="https://cdn3.iconfinder.com/data/icons/sociocons/256/github-sociocon.png" alt="" />
-                <img className='icon4' src="https://png.pngtree.com/element_our/md/20180301/md_5a9797d083160.png" alt="" />
+                <a href="https://github.com/ROrtiz016"><img className='icon3' src="https://cdn3.iconfinder.com/data/icons/sociocons/256/github-sociocon.png" alt="" /></a>
+                <a href="https://www.linkedin.com/in/rortiz-016/"><img className='icon4' src="https://png.pngtree.com/element_our/md/20180301/md_5a9797d083160.png" alt="" /></a>
               </div>
 
               <div className='Input'>
