@@ -51,7 +51,7 @@ class Contact extends Component{
       message: ''
     })
     const{name, email, subject, message} = this.state;
-    axios.post(`/api/message/${name}/${email}/${subject}/${message}/`)
+    // axios.post(`/api/message/${name}/${email}/${subject}/${message}/`)
     alert('Message sent')
   }
 
