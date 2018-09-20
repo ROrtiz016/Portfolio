@@ -53,7 +53,7 @@ class Contact extends Component{
    }
     console.log(info)
     axios.post(`/api/message/`, info).then(res => {
-      this.props
+      res.data
     }
       )
       alert('Message sent')
