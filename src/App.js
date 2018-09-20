@@ -16,6 +16,7 @@ import react from './components/img/react.png'
 import snow from './components/img/snowy-mountains-a.jpg'
 import Icon from './components/img/RubnIcon.PNG'
 import ImageParallax from 'react-image-parallax2'
+import Contact from './Contact'
 // import ScrollspyNav from "react-scrollspy-nav";
 
 
@@ -150,28 +151,8 @@ class App extends Component {
                 </div>
               </div>
             </div>
-
-            <div className='Contact' id='contact'>
-              <div className='Info'>
-                <p className='contct'>C O N T A C T</p>
-                <p className='text1'>For more information feel free to send me a message:</p>
-                <p>rortiz.max@gmail.com <br /> github.com/ROrtiz016 <br />
-                  linkedin.com/in/rortiz-016/</p>
-                <p>Tel: 1-787-538-5781</p>
-                <img className='icon3' src="https://png.icons8.com/color/260/google-plus.png" alt="" />
-                <img className='icon3' src="https://cdn3.iconfinder.com/data/icons/sociocons/256/github-sociocon.png" alt="" />
-                <img className='icon4' src="https://png.pngtree.com/element_our/md/20180301/md_5a9797d083160.png" alt="" />
-              </div>
-
-              <div className='Input'>
-                <input className='name1' type="text" placeholder='Name*' />
-                <input className='Email' type="text" placeholder='Email*' />
-                <input className='subject' type="text" placeholder='Subject' />
-                <textarea className='message' type="text" placeholder='Message' />
-                <p className='send'>Send</p>
-              </div>
-
-            </div>
+            
+              <Contact/>
 
             <div className='Footer'>
               <img className='icon2' src={Icon} alt="" />
