@@ -107,7 +107,7 @@ class App extends Component {
                 </div>
 
                 <div>
-                  <img className='icon' src={postgresql} alt="" /><p className='label'>PostgreSQl</p>
+                  <img className='icon' src={postgresql} alt="" /><p className='label'>PostgreSQL</p>
                 </div>
               </div>
             </div>
@@ -128,7 +128,7 @@ class App extends Component {
                       <p className='Prjct-descrptn1'>E-commerce app dedicated to find all the new fun stuff that big guys are looking for such as the latests Toys for outdoors, electronics, gadgets and more. This app was part of a personal project for Coding School.
                       </p>
                       <p className='Prjct-descrptn1'>
-                        Built with: React | HTML | CSS | Redux | JavaScript | Node | Express | PostgreSQl | Massive | Auth0
+                        Built with: React | HTML | CSS | Redux | JavaScript | Node | Express | PostgreSQL | Massive | Auth0
                       </p>
                       <a href="https://github.com/ROrtiz016/Personal-Project" className='Prjct-descrptn1'><p>github.com/ROrtiz016/Personal-Project</p></a>
                     </div>
@@ -140,7 +140,7 @@ class App extends Component {
                     <p className='Prjct-descrptn'>ClonePen</p>
                     <p className='Prjct-descrptn1'>A useful and liberating tool for developers of any skill, and particularly empowering for people learning to code. With a focus primarily on front-end languages like HTML, CSS, JavaScript, and preprocessing syntaxes that turn into those things. This page was built with a group of 4 Developers. </p>
                     <p className='Prjct-descrptn1'>
-                      Built with: React | HTML | CSS | JavaScript | Node | Express | PostgreSQl | Massive
+                      Built with: React | HTML | CSS | JavaScript | Node | Express | PostgreSQL | Massive
                       </p>
                     <a href="https://github.com/ROrtiz016/codepen-clone" className='Prjct-descrptn1'><p>github.com/ROrtiz016/codepen-clone</p></a>
                   </div>
