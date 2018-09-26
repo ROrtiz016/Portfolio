@@ -173,10 +173,13 @@ font-family:'Saira', sans-serif;
   margin-left: 70px;
 }
 
-.snow{
+.Snow{
   height: 2500px;
   width: 100%;
   min-width: 1200px;
+  background-image: url(./components/img/snowy.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .Portfolio{
@@ -259,7 +262,7 @@ font-family:'Saira', sans-serif;
 }
 
 .Contact{
-  position: absolute;
+  position: relative;
   width: 50%;
   min-width: 900px;
   height: 620px;
@@ -270,7 +273,7 @@ font-family:'Saira', sans-serif;
   padding: 125px;
   display: flex;
   font-family: 'Pontano Sans', sans-serif;
-  top: 4200px;
+  top: 60%;
 }
 
 .contct{
@@ -482,7 +485,8 @@ font-family:'Saira', sans-serif;
     min-width: 100%;  
   }
 
-  .snow{
+  .Snow{
+    background-image: url(./components/img/snowy.jpg);
     height: 2500px;
     width: 100%;
     min-width: 1200px;

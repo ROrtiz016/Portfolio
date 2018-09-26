@@ -51,11 +51,16 @@ class Contact extends Component{
      subject,
      message
    }
-    axios.post(`/api/message/`, info).then(res => {
-       res.data
-    }
-      )
-      alert('Message sent')
+
+   if(name !== '' && email !== '' && subject !== '' && message !== ''){
+     axios.post(`/api/message/`, info).then(res => {
+        res.data
+     }
+       )
+       alert('Message sent')
+   }else{
+     return alert('Please add: name, email, subject and message.')
+   }
   }
 
   

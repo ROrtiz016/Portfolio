@@ -13,7 +13,7 @@ import node from './components/img/Node.png'
 import postman from './components/img/postman.png'
 import redux from './components/img/Redux.png'
 import react from './components/img/react.png'
-import snow from './components/img/snowy-mountains-a.jpg'
+// import snow from './components/img/snowy-mountains-a.jpg'
 import Icon from './components/img/RubnIcon.PNG'
 import ImageParallax from 'react-image-parallax2'
 import Contact from './Contact'
@@ -27,7 +27,6 @@ class App extends Component {
         <img className='laptop' src={laptop} alt="" />
         <div className='divImg'>
           <ImageParallax reduceHeight={1 / 8.5} className='coffee' src={city} alt="" />
-          <img className='snow' src={snow} alt="" />
           <div className='div1'>
 
             <link href="https://fonts.googleapis.com/css?family=Saira:700" rel="stylesheet"></link>
@@ -111,6 +110,7 @@ class App extends Component {
               </div>
             </div>
 
+            <div className='Snow'>
             <div className='Portfolio' id='portfolio'>
               <p className='portfolio'>P R O J E C T S </p>
               <p className='work'> SOME OF MY WORK >></p>
@@ -150,8 +150,8 @@ class App extends Component {
                 </div>
               </div>
             </div>
-            
               <Contact/>
+            </div>
 
             <div className='Footer'>
               <img className='icon2' src={Icon} alt="" />
