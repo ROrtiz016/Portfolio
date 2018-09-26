@@ -264,7 +264,8 @@ font-family:'Saira', sans-serif;
 .Contact{
   position: relative;
   width: 50%;
-  min-width: 900px;
+  max-width: 900px;
+  min-width: 200px;
   height: 620px;
   background: rgb(51, 59, 80);
   left: 25%;
@@ -273,7 +274,7 @@ font-family:'Saira', sans-serif;
   padding: 125px;
   display: flex;
   font-family: 'Pontano Sans', sans-serif;
-  top: 60%;
+  top: 1400px;
 }
 
 .contct{
