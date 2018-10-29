@@ -423,88 +423,95 @@ font-family:'Saira', sans-serif;
 
 
 
-@media (max-width: 500px){
+@media (max-width: 414px){
   .navBar{
     display: none;
   }
   
   .laptop{
-    height: 290vh;
-    min-width: 1000px;
+    height: 100vh;
+    min-width: 200px;
+    width: 414px;
     background-position: center center;
     background-size: cover;
   }
 
   .FrstName{
-    font-size: 125px;
-    margin-left: 350px;
+    font-size: 30px;
+    margin-left: 100px;
   }
 
   .Name{
     position: absolute;
     color: white;
-    height: 950px;
-    width: 1200px;
+    height: 330px;
+    width: 414px;
     left: 0%;
-    top: 20%;
+    top: 15%;
     animation: fadeIn 3s;
     background: rgba(0, 0, 0, 0.493);
   }
 
   .Dev{
     font-weight: 200;
-    font-size: 30px;
-    margin-left: 350px;
+    font-size: 14px;
+    margin-left: 100px;
   }
 
   .Summary{
-    height: 700px;;
-    width: 1000px;
+    height: 450px;;
+    width: 330px;
     color:whitesmoke;
     background: rgb(51, 59, 80);
     padding: 80px;
     font-family: 'Pontano Sans', sans-serif;
-    font-size: 32px;
+    font-size: 14px;
     display: flex;
     justify-content: center;
     align-content: center;
     border-radius: 8px;
     padding: 100px 50px 100px 50px;
     position: absolute;
-    top: 1270px;
-    left: 50%;
+    top: 80%;
+    left: 10%;
     animation: fadeIn 3s;
   }
 
   .icon1{
-    margin-left: 42%;
+    margin-left: 40%;
     margin-bottom: 20px;
+    height: 50px;
   }
 
   .coffee{
-    height: 1500px;
-    min-width: 100%;  
+    height: 1000px;
+    width: 400px;
+    max-width: 400px;  
   }
 
   .Snow{
     background-image: url(./components/img/snowy.jpg);
-    height: 2500px;
-    width: 100%;
-    min-width: 1200px;
+    height: 1300px;
+    min-width: 400px;
   }
 
   .App{
-    min-width: 1200px;
+    background: rgb(51, 59, 80);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 414px;
+    max-width: 414px;
   }
 
   .Skills{
-    height: 800px;
-    max-width: 1150px;
+    height: 300px;
+    max-width: 390px;
     min-width: 200px;
     position: absolute;
     text-align: center;
     left: 10%;
-    top: 2400px;
+    top: 1140px;
     color: whitesmoke;
     background: rgba(43, 42, 42, 0.479);
     border-radius: 10px;
@@ -512,51 +519,52 @@ font-family:'Saira', sans-serif;
   }
 
   .skills{
-    font-size: 40px;
+    font-size: 14px;
     text-align: center;
   }
 
   .Prof{
-    font-size: 66px;
+    font-size: 18px;
     font-family: 'Pontano Sans', sans-serif;
   }
 
   .icon{
-    height: 140px;
-    margin: 5px;
+    height: 30px;
+    margin: 8px;
+    margin-bottom: 12px;
     transition: .2s ease-in;
   }
 
   .Techs{
-    height: 300px;
-    width: 1100px;
+    height: 150px;
+    width: 310px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: center;
     align-items: center;
-    margin-left: 25px;
-    margin-top: 150px;
-    padding: 30px;
+    margin-left: 20px;
+    margin-top: 60px;
+    padding: 5px;
   }
 
   .label{
     font-family: 'Pontano Sans', sans-serif;
-    font-size: 34px;
+    font-size: 11px;
   }
 
   .Portfolio{
-    top: 490vh;
+    top: 240vh;
     color: whitesmoke;
-    font-size: 64px;
+    font-size: 20px;
     font-family: 'Pontano Sans', sans-serif;
-    margin-left: 400px;
-    width: 450px
+    /* margin-left: 5px; */
+    width: 414px
   }
 
   .Projects{
     width: 100%;
-    height: 1750px;
+    height: 1000px;
     justify-content: space-between;
     align-content: center;
     align-items: center;
@@ -566,7 +574,7 @@ font-family:'Saira', sans-serif;
   }
   
   .work{
-    font-size: 36px
+    font-size: 18px
   }
 
   .Contact{
@@ -575,26 +583,26 @@ font-family:'Saira', sans-serif;
 
 
   .Project1{
-    height: 400px;
+    height: 200px;
     border-radius: 10px;
     background-image:url('./components/img/BBT.png');
-    width: 800px;
+    width: 90%;
     background-position: center;
     background-size: cover;
-    margin-left: 70px;
+    margin-left: 10px;
     transition: .5s ease-in;
-    margin-top: 0px;
+    margin-top: 0px
   }
 
   .Project2{
-    height: 400px;
-    width: 800px;
+    height: 200px;
+    width: 90%;
     border-radius: 10px;
     background-image:url('./components/img/ClonePen.PNG');
     background-position: center;
     background-size: cover;
     transition: .5s ease-in;
-    margin-left: 70px;
+    margin-left: 10px;
     position: relative;
     top: -320px;
   }
@@ -605,26 +613,26 @@ font-family:'Saira', sans-serif;
 
   .Prjct-descrptn{
     overflow: hidden;
-    font-size: 50px;
+    font-size: 16px;
   }
 
   .Prjct-descrptn1{
-    font-size: 34px;
+    font-size: 12px;
     overflow: hidden;
     color: white;
     text-decoration: none;
   }
 
   .textBox1{
-    width: 900px;
+    width: 350px;
     height: 200px;
   }
 
   .textBox2{
-    width: 900px;
+    width: 350px;
     height: 200px;
     position: relative;
-    top: 300px;
+    top: 100px;
   }
 
   .icon2{
@@ -637,6 +645,7 @@ font-family:'Saira', sans-serif;
 
   .Footer{
     height: 300px;
+    display: none;
   }
 
 }
