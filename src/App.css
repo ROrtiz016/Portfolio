@@ -636,16 +636,17 @@ font-family:'Saira', sans-serif;
   }
 
   .icon2{
-    height: 90px;
+    height: 50px;
   }
 
   .BY{
-    font-size: 25px
+    font-size: 14px
   }
 
   .Footer{
-    height: 300px;
-    display: none;
+    height: 190px;
+    width: 100%;
+    min-width: 400px;
   }
 
 }
