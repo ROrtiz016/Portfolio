@@ -12,6 +12,7 @@
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-image-parallax2": "^0.1.6",
+    "react-router-hash-link": "^1.2.1",
     "react-scripts": "1.1.4",
     "react-scroll": "^1.7.10",
     "react-scroll-parallax": "^1.3.5",

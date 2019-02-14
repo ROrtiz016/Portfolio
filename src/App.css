@@ -1,5 +1,6 @@
 *{
- box-sizing: border-box 
+ box-sizing: border-box;
+ overflow: inherit
 }
 
 .App{
@@ -263,27 +264,32 @@ font-family:'Saira', sans-serif;
 
 .Contact{
   position: relative;
-  width: 50%;
+  width: 550px;
   max-width: 900px;
   min-width: 200px;
   height: 620px;
   background: rgb(51, 59, 80);
-  left: 25%;
+  left: 36%;
   color: whitesmoke;
   border-radius: 8px;
-  padding: 125px;
+  padding: 85px;
   display: flex;
   font-family: 'Pontano Sans', sans-serif;
   top: 1400px;
 }
 
+.Info{
+  text-align: center;
+}
+
 .contct{
-  font-size: 30px;
+  font-size: 34px;
+  text-align: center;
 }
 
 .text1{
   height: 50px;
-  width: 200px;
+  width: 400px;
 }
 
 .Input{
@@ -310,7 +316,8 @@ font-family:'Saira', sans-serif;
 .subject{
   height: 35px;
   font-size: 18px;
-  width: 420px;
+  min-width:190px; 
+  max-width: 420px;
   margin-bottom: 16px;
 }
 

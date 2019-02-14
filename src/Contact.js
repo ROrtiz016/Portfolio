@@ -71,7 +71,7 @@ class Contact extends Component{
       <div className='Contact' id='contact'>
               <div className='Info'>
                 <p className='contct'>C O N T A C T</p>
-                <p className='text1'>For more information feel free to send me a message:</p>
+                <p className='text1'>For more information feel free to send me a message at:</p>
                 <p>rortiz.max@gmail.com <br /> github.com/ROrtiz016 <br />
                   linkedin.com/in/rortiz-016/</p>
                 <p>Tel: 1-787-538-5781</p>
@@ -79,13 +79,13 @@ class Contact extends Component{
                 <a href="https://www.linkedin.com/in/rortiz-016/"><img className='icon4' src="https://png.pngtree.com/element_our/md/20180301/md_5a9797d083160.png" alt="" /></a>
               </div>
 
-              <div className='Input'>
+              {/* <div className='Input'>
                 <input className='name1' type="text" placeholder='Name*' onChange={this.nameHandler}/>
                 <input className='Email' type="text" placeholder='Email*' onChange={this.emailHandler}/>
                 <input className='subject' type="text" placeholder='Subject' onChange={this.subjectHandler} />
                 <textarea className='message' type="text" placeholder='Message' onChange={this.messageHandler}/>
                 <button className='send' onClick={this.sendEmail}>Send</button>
-              </div>
+              </div> */}
 
             </div>
     )

@@ -13,7 +13,6 @@ import node from './components/img/Node.png'
 import postman from './components/img/postman.png'
 import redux from './components/img/Redux.png'
 import react from './components/img/react.png'
-// import snow from './components/img/snowy-mountains-a.jpg'
 import Icon from './components/img/RubnIcon.PNG'
 import ImageParallax from 'react-image-parallax2'
 import Contact from './Contact'
@@ -33,17 +32,15 @@ class App extends Component {
 
             <link href="https://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet"></link>
 
-            {/* <ScrollspyNav
-             scrollTargetIds={["professional","portfolio","contact"]} activeNavClass="is-active"> */}
             <div className='navBar'>
               <div className='box-nav'>
-                <p><a href='/' className='navObj2'><span>HOME</span></a></p>
+                <p><a smooth href='/' className='navObj2'><span>HOME</span></a></p>
                 <p><a href='#professional' className='navObj'><span>PROFESSIONAL</span> </a></p>
                 <p><a href='#portfolio' className='navObj'><span>PROJECTS</span> </a></p>
                 <p><a href='#contact' className='navObj'><span>CONTACT</span></a></p>
               </div>
             </div>
-            {/* </ScrollspyNav> */}
+
 
             <div>
               <div className='Name'>
