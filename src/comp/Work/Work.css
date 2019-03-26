@@ -1,0 +1,57 @@
+.workContainer{
+  background: white;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description{
+  width: 45%;
+  font-size: 200%;
+  margin: 5%;
+  margin-left: 7%;
+  font-family: "brandon-grotesque", sans-serif;
+  line-height: 140%;
+  color: grey;
+  letter-spacing: 3px;
+  text-align: center
+}
+
+.Skills{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: 50%;
+  
+}
+
+.Skill{
+  text-align: start;
+  font-size: 200%;
+  position: relative;
+  right: 25%;
+  /* font-family: "brandon-grotesque", sans-serif; */
+  margin-bottom: 2%;
+  color: rgb(184, 5, 184);
+  font-family: 'Orbitron', sans-serif;
+}
+
+.logoContainer{
+  display: flex;
+  flex-wrap: wrap;
+  height: 40vh;
+  width: 100%;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+
+.Logo{
+  height: 29%;
+  margin: .5%;
+  margin-top: 2%;
+}
+
+

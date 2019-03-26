@@ -1,0 +1,37 @@
+.AboutContainer{
+  height: 60vh;
+  width: 100%;
+  /* border: 2px solid blue; */
+  /* margin-top: 4.8%; */
+  background: white;
+}
+
+.TextContainer{
+  overflow: hidden;
+
+}
+
+.Texto{
+  padding: 8%;
+  padding-left: 16%;
+  padding-right: 16%;
+  padding-top: 10%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 125%;
+  line-height: 160%;
+  color: rgb(58, 58, 58);
+}
+
+.AboutTitle{
+  /* font-family: "brandon-grotesque", sans-serif; */
+  font-family: 'Orbitron', sans-serif;
+  font-size: 200%;
+  position: relative;
+  width: 20%;
+  height: 5%;
+  left: 22%;
+  top: 25%;
+}
