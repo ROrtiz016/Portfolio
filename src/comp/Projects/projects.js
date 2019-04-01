@@ -9,7 +9,7 @@ class projects extends Component {
   render() {
     return (
       <div className='Projects'>
-        <img src={Coding} alt="" className='backGif' reduceHeight={1/3} />
+        <img src={Coding} alt="" className='backGif'/>
         <h1 className='PrjtTitle'>Some of my Projects</h1>
 
         <div className='ProjContainer'>
