@@ -35,3 +35,24 @@
   left: 22%;
   top: 25%;
 }
+
+@media(max-width: 414px){
+  .AboutContainer{
+    height: 100vh;
+  }
+
+  .Texto{
+    font-size: 16px;
+  }
+
+  .AboutTitle{
+    /* font-family: "brandon-grotesque", sans-serif; */
+    font-family: 'Orbitron', sans-serif;
+    font-size: 150%;
+    position: relative;
+    width: 75%;
+    height: 5%;
+    left: 12%;
+    top: 3%;
+  }
+}

@@ -55,3 +55,33 @@
 }
 
 
+@media(max-width: 414px){
+  .description{
+    font-size: 16px;
+    width: 60%;
+    height: 30vh;
+    margin-top: 60px;
+  }
+
+  .workContainer{
+    height: 150vh;
+  }
+
+  .logoContainer{
+    height: 100vh;
+    width: 100%;
+  }
+
+  .Logo{
+    height: 8%;
+  }
+
+  .Skill{
+    margin-bottom: 50px;
+  }
+
+  .Skills{
+    width: 70%;
+    
+  }
+}

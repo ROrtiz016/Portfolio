@@ -87,3 +87,36 @@
 .Git:hover{
   color: blue;
 }
+
+@media(max-width:415px){
+  .PrjtTitle{
+  font-family: 'Orbitron', sans-serif;
+  font-size: 150%;
+  height: 15vh;
+  width: 75%; 
+  margin-left: 15px;
+  }
+
+  .ProjContainer{
+    padding-left:0%;
+    height: 60vh;
+  }
+
+  .IndvProject{
+    color: white;
+    width: 80%;
+    height: 45%;
+  }
+
+  .PrjImg{
+    height: 100%;
+    width: 100%;
+    transition: 1s;
+  }
+
+  #Focus{
+    background: black;
+    font-size: 80%;
+    margin-bottom: 15px;
+  }
+}

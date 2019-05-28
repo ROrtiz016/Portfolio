@@ -54,3 +54,26 @@
   color: rgb(95, 255, 47);
   margin-left: .5%;
 }
+
+@media(max-width: 414px){
+  .frontImage{
+    height: 100vh;
+    overflow: hidden;
+    width: 150%;
+    right: 0%;
+  }
+
+  .title{
+    font-size: 16px;
+    word-spacing: 10px;
+  }
+
+  .sym{
+    margin-right: 5px;
+  }
+
+  .subtitle{
+    font-size: 15px;
+    margin-top: 20px;
+  }
+}

@@ -56,3 +56,21 @@
   height: 9vh;
   margin-top: 65%;
 }
+
+@media(max-width: 414px){
+  .InfoContainer{
+   height: 70%;
+   width: 90%;
+   background: rgba(0, 0, 0, 0.767);
+   position: relative;
+   left: 5%;
+   top: 15%;
+  }
+
+  .Cont{
+   font-size: 150%;
+ }
+ .Info{
+   font-size: 100%;
+ }
+}
